@@ -8,11 +8,12 @@ Contains:
 - A base user factory (using `django.contrib.auth.get_user_model`) and a `RequestTestCase` derived from it.
 - A makefile that handles tests, migrations and running a server.
 
-There are a number of `TODO`s in this project that mark the holes that will most commonly need to be filled in.  Searching for the string `TODO` (not as a whole word) should find them all.  The most notable are:
+There are a number of `TODO`s in this project that mark the holes that will most commonly need to be filled in.  Searching for the string `TODO` (not as a whole word) should find them all.
 - `TODO_PACKAGE_NAME` - replace this string everywhere with the name of the top-level package of your library.
 - `TODO_PROJECT_NAME` - replace this string everywhere with the name of the repository.
 - `setup.py` has a `TODO` in the description field.
 - `requirements.txt` may need updating to use latest versions of dependencies.
+- `LICENSE` has a `TODO_CURRENT_YEAR` slot in the copyright line that will need to be filled in. The licence supplied is the 2-Clause BSD licence, which is currently the one we use for open-source projects at time of writing.  Change, remove or update it as necessary if that isn't right for the project you're building.
 
 Once that is done, check whether you need any particular component and delete it if necessary.
 
