@@ -25,9 +25,9 @@ After setup, make sure to do the following:
 - Replace this readme with information about your project.
 
 
-### Trove development status options
+### Trove
 
-These are for filling in the `TODO_DEV_STATUS` in `setup.py`.  Choose one:
+These are the Trove development status options, for filling in the `TODO_DEV_STATUS` in `setup.py`.  Choose one:
 
 ```
 Development Status :: 1 - Planning
@@ -38,3 +38,5 @@ Development Status :: 5 - Production/Stable
 Development Status :: 6 - Mature
 Development Status :: 7 - Inactive
 ```
+
+The full list of Trove classifiers can be found at [pypi.python.org](https://pypi.python.org/pypi?:action=list_classifiers).
