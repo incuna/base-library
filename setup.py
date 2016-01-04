@@ -12,7 +12,7 @@ setup(
     author_email='admin@incuna.com',
     url='https://github.com/incuna/TODO_PROJECT_NAME',
     classifiers=[
-        'Development Status :: 5 - Production/Stable',
+        'Development Status :: TODO_DEV_STATUS',
         'Environment :: Web Environment',
         'Framework :: Django',
         'Intended Audience :: Developers',
