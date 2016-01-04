@@ -15,6 +15,8 @@ There are a number of `TODO`s in this project that mark the holes that will most
 - `requirements.txt` may need updating to use latest versions of dependencies.
 - `LICENSE` has a `TODO_CURRENT_YEAR` slot in the copyright line that will need to be filled in. The licence supplied is the 2-Clause BSD licence, which is currently the one we use for open-source projects at time of writing.  Change, remove or update it as necessary if that isn't right for the project you're building.
 
+`.travis.yml` and `setup.py` contain some configuration and description that may need fine-tuning.  At time of writing, this project "supports" Python 2.7, 3.4 and 3.5 - update the Trove classifiers (in `setup.py`) and Travis environment config as necessary.
+
 Once that is done, check whether you need any particular component and delete it if necessary.
 
 After setup, make sure to do the following:
