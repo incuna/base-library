@@ -22,8 +22,10 @@ INSTALLED_APPS = (
     'TODO_PACKAGE_NAME',
     'TODO_PACKAGE_NAME.tests',
 
-    # Put contenttypes before auth to work around test issue.
+    # Work around 'relation does not exist' errors by ordering the installed apps:
+    #   contenttypes -> auth -> everything else.
     # See: https://code.djangoproject.com/ticket/10827#comment:12
+    #      http://stackoverflow.com/q/29689365
     'django.contrib.contenttypes',
     'django.contrib.auth',
     'django.contrib.admin',
