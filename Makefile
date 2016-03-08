@@ -26,7 +26,7 @@ migrations:
 	@test_project/manage.py makemigrations
 
 migrate:
-	@if [ `psql -t -c "SELECT COUNT(1) FROM pg_catalog.pg_database WHERE datname = 'TODO_PROJECT_NAME'"` -eq 0 ]; then \
+	@if [ `psql -t -c "SELECT COUNT(1) FROM pg_catalog.pg_database WHERE datname = 'TODO_PACKAGE_NAME'"` -eq 0 ]; then \
 		psql -c "CREATE DATABASE TODO_PROJECT_NAME"; \
 	fi
 	@test_project/manage.py migrate
